@@ -1,0 +1,10 @@
+name = input("What is your name?: ")
+
+name = name.capitalize() #the first letter goes uppercase
+
+print(f"Welcome, {name}!")
+
+,,,
+This is called an f-string. 
+The f in front of the string stands for "format".
+You cann learn about f-strings here:
