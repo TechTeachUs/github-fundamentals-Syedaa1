@@ -37,4 +37,14 @@ print("Number of toonies:", num_toonies)
 print("Total value of coins: $" + "{:.2f}".format(total_value))
 #The {:.2f} is used to format a float to two decimal places
 
-change = total_value  #This stores the remainder of the total value
+change = total_value - (total_value // 1) #stores total's decimal part
+                        
+chQ = change // 25
+chD = (change - chQ) // 10
+chN = (change-chQ-chD) // 5
+chP = (change - chQ - chD -chN) // 1
+
+
+
+
+
