@@ -43,8 +43,6 @@ chQ = change // 25
 chD = (change - chQ) // 10
 chN = (change-chQ-chD) // 5
 chP = (change - chQ - chD -chN) // 1
-
-
-
-
+                        
+print(f"you have a total of {int(total_value - change)} dollars, {chQ} quarters")
 
