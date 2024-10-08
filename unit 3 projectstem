@@ -1,0 +1,9 @@
+10/8/24
+
+codeskuptor: def mult_function(x,y):
+    z=x*y
+    print ("I heart math")
+    return z 
+print("z")
+mult_function(5,4)
+mult_function(7,3)
